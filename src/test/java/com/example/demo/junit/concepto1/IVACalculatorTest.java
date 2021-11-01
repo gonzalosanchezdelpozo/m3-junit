@@ -1,6 +1,7 @@
 package com.example.demo.junit.concepto1;
 
 import com.example.demo.service.IVACalculator;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -29,4 +30,5 @@ public class IVACalculatorTest {
         double result = calculator.calculateIVA(-100);
         assertEquals(-21, result);
     }
+
 }
